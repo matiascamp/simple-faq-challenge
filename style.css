@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap');
+
+/* Reset some default styles */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add some styles for body*/
+body {
+  min-height: 100vh;
+  max-width: 1280px;
+  margin: 0 auto;
+  background: #fff;
+  color: #030616;
+  font-family: 'Sora', sans-serif;
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #4E80EE;
+}
+
+ol,
+ul {
+  line-height: 2.5;
+  margin-bottom: 2rem;
+  max-width: 700px;
+}
+
+
+
+h1 {
+  font-size: 36px;
+}
+
+h3 {
+  margin-bottom: 2.5rem;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.text-container {
+  width: 100%;
+}
+
+.text-container:nth-child(0n+1) {
+  text-align: center;
+}
+
+.text-container:nth-child(0n+2) {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.text-container:nth-child(0n+4)  {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.separator {
+  border-bottom: 2px solid #D2D5DA;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 640px) {
+  ol,
+  ul {
+    padding-left: 1.5rem;
+  }
+
+  body {
+    padding: 1rem;
+    font-size: 15px;
+  }
+}
